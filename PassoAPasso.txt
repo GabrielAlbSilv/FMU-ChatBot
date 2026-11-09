@@ -1,0 +1,12 @@
+Crie a pasta do projeto
+Abra o vscode e abra a pasta do projeto dentro do vscode
+Crie os arquivos app.py, requirements.txt e .env
+No arquivo requirements coloque os arquivos que deverão ser instalados
+Abra o terminal (ctrl ‘), crie e ative um ambiente virtual para instalar as bibliotecas
+python -m venv venv
+.\venv\Scripts\Activate.ps1 (Após a ativação, deverá aparecer (venv) no início da linha do terminal)
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass – se o windows não permitir a instalação
+Instalar as bibliotecas (requirements)
+python -m pip install -r requirements.txt
+Para testar a execução do app.py:
+python -m streamlit run app.py (O Streamlit abrirá a aplicação no navegador, normalmente em http://localhost:8501) 
