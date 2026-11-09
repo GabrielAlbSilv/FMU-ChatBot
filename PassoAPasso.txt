@@ -1,21 +1,20 @@
-Crie a pasta do projeto
+1.Crie a pasta do projeto
 
-Abra o vscode e abra a pasta do projeto dentro do vscode
+2.Abra o vscode e abra a pasta do projeto dentro do vscode
 
-Crie os arquivos app.py, requirements.txt e .env
-		EM .env GERE O COMANDO GROQ_API_KEY="ChaveApiAqui"
+3.Crie os arquivos app.py, requirements.txt e .env
+		3.1EM .env GERE O COMANDO GROQ_API_KEY="ChaveApiAqui"
 
-No arquivo requirements coloque os arquivos que deverão ser instalados
+4.No arquivo requirements coloque os arquivos que deverão ser instalados
 
-Abra o terminal (ctrl ‘), crie e ative um ambiente virtual para instalar as bibliotecas
+5.Abra o terminal (ctrl ‘), crie e ative um ambiente virtual para instalar as bibliotecas:
 python -m venv venv
 
-.\venv\Scripts\Activate.ps1 (Após a ativação, deverá aparecer (venv) no início da linha do terminal)
+6.Rode o comando: .\venv\Scripts\Activate.ps1 (Após a ativação, deverá aparecer (venv) no início da linha do terminal)
+	6.1 Em caso de erro, rode: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass – se o windows não permitir a instalação
 
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass – se o windows não permitir a instalação
-Instalar as bibliotecas (requirements)
-
+7.Instalar as bibliotecas (requirements):
 python -m pip install -r requirements.txt
 
-Para testar a execução do app.py:
+8.Para testar a execução do app.py:
 python -m streamlit run app.py (O Streamlit abrirá a aplicação no navegador, normalmente em http://localhost:8501) 
