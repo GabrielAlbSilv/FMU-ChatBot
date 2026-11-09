@@ -10,7 +10,7 @@
 5.Abra o terminal (ctrl ‘), crie e ative um ambiente virtual para instalar as bibliotecas:
 		1:   python -m venv venv
                 2:   .\venv\Scripts\Activate.ps1 (Após a ativação, deverá aparecer (venv) no início da linha do terminal)
-	        3:   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass – Se o windows não permitir a instalação
+	        3:   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  (Se o windows não permitir a instalação)
 
 6.Instalar as bibliotecas (requirements):
 python -m pip install -r requirements.txt
